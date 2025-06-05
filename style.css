@@ -112,18 +112,18 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-.video-grid {
+.img-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-}
+} 
 
-.video-grid iframe {
+.img-grid img {
   width: 100%;
   max-width: 400px;
   height: 220px;
-  border: none;
+  /* border: none; */
   border-radius: 8px;
 }
 
